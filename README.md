@@ -1,18 +1,18 @@
 
-#  colors.hpp
+#  colors.h
 
-![Example of usage](https://imgur.com/jIs5Vyf.png)
+![Example of usage](screenshot.png)
 
 
-Colors.hpp is a simple header for C++ for stylish text in terminal created for study stream manipulators.
+Colors.h is a ported version of [colors.hpp](https://github.com/hugorplobo/colors.hpp/tree/main) for C for stylish text in terminal.
 
 ## How it works
 
-The library uses ANSI escape sequences via stream manipulators. Now, Windows is supported through its API, to see what features are available, see the methods list below.
+The library uses ANSI escape sequences via printf calls. Now, Windows is supported through its API, to see what features are available, see the methods list below.
 
 ## Installation
 
-Just add the `colors.hpp` from `include/colors/colors.hpp` file to your project's include folder.
+Just add the `colors.h` from `include/colors/colors.h` file to your project's include folder.
 
 - Example with g++
 `g++ test.cpp -o build/test -I include/`
