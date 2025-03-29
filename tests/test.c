@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "colors/colors.h"
+#include "../include/colors/colors.h"
 
 int main() {
     printf("Hello, World!");
@@ -51,5 +51,6 @@ int main() {
     reset();
     on_white();
     printf("\nHello, World on white background!");
+    reset();
     reset();
 }

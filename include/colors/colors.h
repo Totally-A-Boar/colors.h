@@ -30,7 +30,7 @@
  * You have to manually set the colors for it.
  */
 inline void wset_attributes(int foreground, int background) {
-    static WORD defaultAttributes = 0;
+    WORD defaultAttributes = 0;
     HANDLE handleTerminal = GetStdHandle(STD_OUTPUT_HANDLE);
 
     if (!defaultAttributes) {
